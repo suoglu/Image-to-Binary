@@ -23,4 +23,9 @@ venv
 WIP*
 
 # Repo specific
-
+*.png
+*.raw
+*.bmp
+*.jpg
+*.jpeg
+*.img
