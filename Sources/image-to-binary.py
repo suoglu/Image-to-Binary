@@ -160,9 +160,9 @@ if __name__ == '__main__':
         if mode_bw or mode_grey:
           # determine output filename
           if mode_bw:
-            mode_name = '_bw'
+            mode_name = '.bw'
           else:
-            mode_name = '_grey'
+            mode_name = '.grey'
           if raw:
             f_ext = '.raw'
           else:
@@ -251,7 +251,7 @@ if __name__ == '__main__':
           try:
             file_num = ''
             if mode_rgb565:
-              mode_name = '_rgb565'
+              mode_name = '.rgb565'
             if os.path.isfile(filename + mode_name + '.raw'):
               file_num = 0
               while os.path.isfile(filename + mode_name + '_' + str(file_num) + '.raw'):
